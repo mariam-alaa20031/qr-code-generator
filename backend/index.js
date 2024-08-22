@@ -17,7 +17,7 @@ app.listen(port, () => {
 });
 
 app.get('/', (req,res)=>{
-    res.sendFile(_dirname+"/../public/index.html")
+    res.sendFile(_dirname+"/../index.html")
 }
 )
 
