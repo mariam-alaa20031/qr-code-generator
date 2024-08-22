@@ -1,0 +1,23 @@
+form{
+    display: flex;
+    flex-direction: column;
+    width:40%;
+    gap:5px;
+    margin-left: 30%;
+}
+h1{ 
+    text-align: center;
+}
+input[value="generate"]{
+    width:max-content;
+    align-self: flex-end ;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    gap:40px;
+    justify-content: center;
+    margin:0;
+}
